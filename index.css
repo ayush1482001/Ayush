@@ -1,4 +1,409 @@
-*{
-    margin: 0;
-    padding: 0;
+
+
+.container-fluid{
+    min-height:100vh;
+    /* background-color: rgb(9, 106, 192); */
 }
+
+.header{
+    height:100vh;
+    background-color: rgb(147, 128, 206);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.784),rgba(0, 0, 0, 0.515)),url('https://bootstrapmade.com/demo/templates/Append/assets/img/hero-bg.jpg');
+    background-size: cover;
+
+}
+.nav{
+    margin: 0;
+    height:15vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(163, 118, 153);
+    background: transparent;
+}
+.btn{
+    background-color: rgb(255, 89, 0) !important;
+    border: none!important;
+
+}
+.btn:hover{
+    scale: 1.04;
+
+}
+.ramesh:hover{
+    /* background-color: yellow !important; */
+    scale: 1.04;
+    transition: ease-in-out;
+    transition-duration: .5s !important;
+    
+}
+.suresh:hover{
+    /* background-color: yellow !important; */
+    transition-duration: .5s !important;
+    scale: 1.04;
+    transition: ease-in-out;
+
+}
+.footer{
+    height:20vh;
+    background-color: rgb(255, 0, 111);
+}
+.sidebar{
+    background-color: aqua;
+}
+.section{
+    background-color: yellow;
+}
+
+.list li{
+    cursor:pointer;
+    font-size: 16px;;
+display: inline-block;
+color:rgb(215, 211, 211);
+}
+.list{
+    display: flex;
+justify-content: space-around;
+}
+
+.nav h1{
+ color:white;
+}
+.nav button{
+    padding:5px 10px;
+    background-color: rgb(247, 105, 4);
+    color:rgb(253, 235, 235);
+    border-radius: 5px;
+    border:none;
+}
+.start .twobu{
+    float: right;
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+.nav li:hover{
+    color:white;
+    text-shadow: 1px 0px 2px rgb(255, 255, 255);
+}
+.toto{
+    color: white;
+    height:max-content;
+    width:max-content !important;
+
+}
+.toto h1{
+    font-size: 45px;
+}
+
+.toto input{
+    width:75%;
+    height:50px;
+    border-radius: 5px;
+    border:none;
+}
+.toto button{
+    height:40px;
+    padding:0 10px;
+    background-color:red;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    position: relative;
+    right:80px;
+}
+
+.dropdown button{
+    background: transparent !important;
+    /* border:none; */
+   position:relative;
+   bottom:5px;
+   color:rgb(205, 201, 201);
+}
+
+.com{
+    min-height:15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.com img{
+    height:40px;
+    /* width:50%; */
+    filter: grayscale(100%);
+    opacity:0.6;
+}
+.com img:hover{
+    filter: grayscale(0%);
+    opacity:1;
+}
+#burger{
+    font-variation-settings: 
+    'FILL' 0,
+   'wght' 900,
+   'GRAD' 0,
+   'opsz' 40; 
+   color: white !important;
+   margin: 0 !important;
+   padding: 0 !important;
+   display:block !important;
+}
+@media screen and (max-width:1000px){
+    .list li{
+        display: none;
+    }
+}
+@media screen and (min-width:1000px){
+    #burger {
+        color: white !important;
+        display: none!important;
+    }
+}
+@media screen and (max-width:337px){
+    .toto button{
+       display: none!important;
+    }
+    .welcome{
+        height: max-content!important;
+    }
+    .box2{
+        margin-top: 50px !important;
+    }
+    .cardd .row{
+        padding-bottom: 5px !important;
+    }
+}
+
+
+
+.offcanvas-body ul li{
+
+ list-style: none;
+ /* border:2px solid grey; */
+
+}
+.offcanvas-body ul{
+ display: flex;
+ flex-direction: column;
+}
+.third{
+    min-height: 200px;
+    
+}
+.text{
+    min-height: 200px;
+}
+.cardd{
+    min-height: 200px;
+
+}
+
+.box1{
+    min-height:300px;
+    width:100%;
+    background-color: white;
+    border-radius: 20px;
+    /* padding:20px; */
+    position: relative;
+    top:30px;
+}
+
+.box2{
+    min-height:300px;
+    width:100%;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.cardd .row{
+    padding-bottom: 30px;
+}
+.text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content{
+    width:80%;
+}
+ .a{
+    font-size: 50px !important;
+    /* background-color:red !important; */
+    display: inline-block !important;
+    margin: 50px 0 15px 30px !important;
+    color:rgb(231, 14, 14) !important;
+    padding:20px !important;
+    border-radius: 50% !important;
+} 
+.a:hover{
+    color:white !important;
+    text-shadow: 1px 10px 20px rgb(255, 2, 2);
+    background-color: red !important;
+}
+.cardd h2, .cardd p{
+    /* background-color: rgb(221, 166, 3); */
+    margin:6px 20px 5px 27px !important;
+}
+.stats{
+    padding: 0 !important;
+    height:400px;
+    background-image: linear-gradient(rgba(18, 16, 16, 0.753),rgba(13, 13, 13, 0.721)),url('./img/template_files/WhatsApp Image 2023-08-07 at 8.42.48 PM.jpeg');
+    background-size: contain;
+    }
+
+.third{
+    background-color: rgb(233, 230, 230)!important;
+    padding:20px 0;
+}
+.box1,.box2{
+ box-shadow: 0 0 10px rgb(131, 130, 130);
+}
+
+
+.service{
+ height:20vh;
+ display: flex;
+ align-items: center;
+ justify-content: center !important;
+
+}
+
+.service h1,p{
+    display: flex;
+    justify-content: space-around;
+}
+
+    .he{ 
+    
+        background-color: rgb(218, 218, 218);
+        padding: 80px 0;
+        box-shadow: 2px 2px 10px rgb(253, 253, 253) inset;
+    }
+    
+    
+    .suresh{
+        position: relative;
+        bottom: 30px;
+    }
+    .box p, h2{
+        margin:0 10%;
+        
+        word-spacing: 2px;
+    
+    }
+    .box{
+        box-shadow: 0 0 4px rgb(228, 225, 225);
+        border-radius: 20px;
+        background-color: white;
+        min-height: 300px;
+        width: 100%;
+    }
+    
+    
+    .first{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .first div{
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 80%;
+       
+    }
+    .first h1{
+        font-size:50px;
+        font-weight: 600;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .first button{
+        background-color: #e84545;
+        color: white;
+        padding:15px 55px;
+        border: none;
+        border-radius:5px;
+        font-size: 20px;
+    }
+    .first button:hover{
+        opacity: 0.8;
+    }
+    .material-symbols-outlined{
+        font-size: 40px !important;
+        padding: 20px!important;
+        
+        margin:60px 0px 10px 30px !important;
+        border-radius: 50%;
+        color: #e84545!important;
+    }
+    .material-symbols-outlined:hover{
+        background-color: #e84545!important;
+        color: white!important;
+    }
+    
+    .ayush{
+    padding-top: 30px;
+    }
+    .ayush2{
+    padding-top: 30px;
+    }
+    
+    @media screen and (max-width: 575px) {
+        .suresh{
+            
+        margin-top: 50px!important;
+        }
+        .ayush2{
+            padding-top: 0!important;
+        }
+        
+    }
+    .banner{
+        align-items: center;
+        display: flex;
+       
+        min-height: 50vh;
+        width: 100vw;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.653),rgba(0, 0, 0, 0.595)), url("https://bootstrapmade.com/demo/templates/Append/assets/img/stats-bg.jpg");
+        background-size: contain;
+    }
+    
+    .aman{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .aman h1{
+        font-size: 60px;
+        color: white;
+        width: 100%!important;
+        font-weight: 600;
+        margin: 0!important;
+        text-align: center;
+        
+    }
+    .aman p{
+        position: relative;
+        bottom: 30px;
+        color: white;
+        font-weight:600;
+        font-size: 20px;
+        
+    }
+    
+    #aboutt{
+        padding: 5px 15px!important;
+        border: none !important;
+        background-color: rgba(227, 14, 121, 0.044)!important;
+        color: rgb(179, 30, 30);
+    }
+    
+    
