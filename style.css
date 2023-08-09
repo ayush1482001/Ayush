@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(167, 114, 123);
+}
+.row{
+    height: 200px;
+    background-color: rgb(206, 168, 57);
+}
+.ayu{
+    border: 2px solid black;
+}

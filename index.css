@@ -1,7 +1,6 @@
 .container-fluid {
   min-height: 100vh;
 }
-
 .header {
   height: 100vh;
   background-color: rgb(147, 128, 206);
@@ -24,38 +23,32 @@
 .btn:hover {
   scale: 1.04;
 }
-.ramesh:hover {
-  scale: 1.04;
-  transition: ease-in-out;
+.box:hover {
+  box-shadow: 0 0 10px rgb(16, 175, 232) !important;
   transition-duration: 0.5s !important;
 }
-.suresh:hover {
-  transition-duration: 0.5s !important;
-  scale: 1.04;
-  transition: ease-in-out;
-}
-.footer {
-  height: 20vh;
-  background-color: rgb(255, 0, 111);
-}
-.sidebar {
-  background-color: aqua;
-}
-.section {
-  background-color: yellow;
-}
-
 .list li {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   display: inline-block;
   color: rgb(215, 211, 211);
+  /* background-color: blue; */
+}
+.list :hover {
+  .hov {
+    background-color: rgb(255, 0, 0);
+    width: 130%;
+    height: 3px;
+    border-radius: 10px;
+    position: relative;
+    right: 15%;
+    transition-duration: 1s;
+  }
 }
 .list {
   display: flex;
   justify-content: space-around;
 }
-
 .nav h1 {
   color: white;
 }
@@ -72,10 +65,9 @@
   align-items: center;
   gap: 8px;
 }
-
 .nav li:hover {
   color: white;
-  text-shadow: 1px 0px 2px rgb(255, 255, 255);
+  text-shadow: 0px 0px 2px rgb(255, 255, 255);
 }
 .toto {
   color: white;
@@ -85,7 +77,6 @@
 .toto h1 {
   font-size: 45px;
 }
-
 .toto input {
   width: 75%;
   height: 50px;
@@ -102,26 +93,24 @@
   position: relative;
   right: 80px;
 }
-
 .dropdown button {
   background: transparent !important;
   position: relative;
   bottom: 5px;
   color: rgb(205, 201, 201);
 }
-
-.com {
+.company {
   min-height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.com img {
-  height: 40px;
+.company img {
+  height: 50px;
   filter: grayscale(100%);
   opacity: 0.6;
 }
-.com img:hover {
+.company img:hover {
   filter: grayscale(0%);
   opacity: 1;
 }
@@ -157,7 +146,6 @@
     padding-bottom: 5px !important;
   }
 }
-
 .cardd .row {
   padding-bottom: 30px;
 }
@@ -194,14 +182,12 @@
   align-items: center;
   justify-content: center !important;
 }
-
-.he {
+.head {
   background-color: rgb(218, 218, 218);
   padding: 80px 0;
-  box-shadow: 2px 2px 10px rgb(253, 253, 253) inset;
+  box-shadow: 2px 2px 10px rgb(137, 135, 135) inset;
 }
-
-.suresh {
+.cardd2 {
   position: relative;
   bottom: 30px;
 }
@@ -212,13 +198,12 @@ h2 {
   word-spacing: 2px;
 }
 .box {
-  box-shadow: 0 0 4px rgb(228, 225, 225);
+  box-shadow: 0 0 10px rgb(126, 127, 128) !important;
   border-radius: 20px;
   background-color: white;
   min-height: 300px;
   width: 100%;
 }
-
 .first {
   display: flex;
   flex-wrap: wrap;
@@ -253,32 +238,46 @@ h2 {
 .material-symbols-outlined {
   font-size: 40px !important;
   padding: 20px !important;
-
   margin: 60px 0px 10px 30px !important;
   border-radius: 50%;
   color: #e84545 !important;
 }
-.material-symbols-outlined:hover {
-  background-color: #e84545 !important;
-  color: white !important;
+.cardd2:hover {
+  transition-duration: 0.5s !important;
+  scale: 1.04;
+  transition: ease-in-out;
+  .material-symbols-outlined {
+    transition-duration: 0.5s !important;
+    background-color: #e84545 !important;
+    color: white !important;
+  }
 }
-
-.ayush {
+.cardd1:hover {
+  scale: 1.04;
+  transition: ease-in-out;
+  transition-duration: 0.5s !important;
+  .material-symbols-outlined {
+    transition-duration: 0.5s !important;
+    background-color: #e84545 !important;
+    color: white !important;
+  }
+}
+.lay {
   padding-top: 30px;
 }
-.ayush2 {
+.lay2 {
   padding-top: 30px;
 }
-
 @media screen and (max-width: 575px) {
-  .suresh {
+  .cardd2 {
     margin-top: 50px !important;
   }
-  .ayush2 {
+  .lay2 {
     padding-top: 0 !important;
   }
 }
 .banner {
+  box-shadow: 0px -4px 10px rgb(101, 100, 100);
   align-items: center;
   display: flex;
 
@@ -288,15 +287,14 @@ h2 {
     url("https://bootstrapmade.com/demo/templates/Append/assets/img/stats-bg.jpg");
   background-size: contain;
 }
-
-.aman {
+.data {
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.aman h1 {
+.data h1 {
   font-size: 60px;
   color: white;
   width: 100% !important;
@@ -304,17 +302,60 @@ h2 {
   margin: 0 !important;
   text-align: center;
 }
-.aman p {
+.data p {
   position: relative;
   bottom: 30px;
   color: white;
   font-weight: 600;
   font-size: 20px;
 }
-
+.data:hover{
+  cursor: pointer;
+    scale: 1.1;
+    color: green;
+    transition: ease-in-out;
+    transition-duration: .5s;
+    text-shadow: 0 0 2px white;
+}
 #aboutt {
   padding: 5px 15px !important;
   border: none !important;
   background-color: rgba(227, 14, 121, 0.044) !important;
   color: rgb(179, 30, 30);
+}
+.service {
+  margin: 100px 0 !important;
+}
+.service h1{
+  text-align: center;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.service p{
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 70px;
+}
+.service h1 span{
+  display: inline-block!important;
+  height: 3px!important;
+  background-color: red!important;
+  position: relative!important;
+  bottom: 10px;
+  border-radius: 10px;
+  width: 4%!important;
+}
+.service .row{
+  min-height:200px!important;
+}
+.service .row .ser{
+  height: 200px!important;
+}
+.line{
+  background: linear-gradient( to right, rgb(255, 0, 0) 5%, rgb(163, 165, 165) 5%) ;
+  border-radius: 10px !important;
+  width: 100%;
+  height: 3px!important;
 }
