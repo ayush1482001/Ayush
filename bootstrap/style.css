@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+min-height: 10vh;
+    display: flex;
+
+}
+.aman{
+   
+    display: flex!important;
+    justify-content: center;
+    gap: 2vw;
+    align-items: center; 
+}
+
+
+.card{
+    width: 350px!important;
+    height: 210px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    box-shadow: 2px 2px 5px rgb(179, 179, 179);
+
+}
+.card .first{
+  border-right:  1px solid rgb(210, 210, 210) !important;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+   
+    height: 100%;
+    width: 50%;
+}
+.card .first img{
+    height: 60px;
+    border-radius: 50%;
+}
+ .card .second{
+   
+    height: 100%;
+    width: 50%;
+}
+.first div{
+    /* background-color: green !important; */
+    min-height: 10px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row !important;
+    gap: 1px !important;
+}
+.first div .box {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    /* background-color: rgb(30, 31, 31) !important; */
+    width: 30%;
+    gap: 1px !important;
+}
+.first div .box .num{
+    width: 100%;
+    background-color: rgb(237, 245, 246) !important;
+    border-radius: 5px;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.text{
+    font-size: 8px;
+}
+.second{
+    margin-left: 5px;
+    font-size: 8px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.second .fa-quote-left{
+    font-size: 25px !important;
+    color: rgb(200, 226, 238);
+}
+.second img{
+    border-radius: 50%;
+    height: 40px;
+}
+
+
